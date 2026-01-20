@@ -1,0 +1,135 @@
+.full {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f4f6f8;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.alldata {
+    max-width: 1100px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.leftcontent {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftcontent img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.rightcontent {
+    flex: 2;
+}
+
+.rightcontent h1 {
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.rightcontent h2 {
+    font-size: 20px;
+    color: #1f2937;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 90;
+}
+
+.rightcontent p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #4b5563;
+    margin-bottom: 20px;
+}
+
+.endcontect {
+    max-width: 1100px;
+    margin: 40px auto 0;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.summery h1 {
+    font-size: 24px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.summery p {
+    font-size: 15px;
+    color: #374151;
+    padding-left: 18px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.summery p::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.do {
+    margin-top: 25px;
+    padding: 12px 28px;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.do:hover {
+    background-color: #1e40af;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
+}
+
+.backbtn {
+    margin-top: 25px;
+    padding: 12px 28px;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 900px) {
+    .alldata {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rightcontent h1 {
+        font-size: 24px;
+    }
+
+    .leftcontent img {
+        max-width: 280px;
+    }
+}
