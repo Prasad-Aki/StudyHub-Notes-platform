@@ -2,12 +2,12 @@ StudyHub is a React-based web application for students to store and access study
 It helps students manage their study material in one place with search and filters.
 
 🚀 Features
-📌 Display all notes
-🔍 Search notes by title
-🗂 Filter notes by year
-🧾 View note details on a separate page
-🧩 Responsive UI
-🛠 Built with React and React Router
+- Display all notes
+-  Search notes by title
+-  Filter notes by year
+-  View note details on a separate page
+-  Responsive UI
+-  Built with React and React Router
 
 🧱 Tech Stack
 - React
