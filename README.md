@@ -28,11 +28,11 @@ It helps students manage their study material in one place with search and filte
 <img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/e0818595-e77a-4088-b504-5a7e5fe81ae7" />
 
 📈 What I Learned
-Building multi-page apps using React Router
-Implementing search and filter logic
-Component-based UI architecture
-Structuring a real-world React project
-Creating clean and readable UI layouts
+- Building multi-page apps using React Router
+- Implementing search and filter logic
+- Component-based UI architecture
+- Structuring a real-world React project
+- Creating clean and readable UI layouts
 
 ## 📬 Contact
 **Prasad Akiwate**  
