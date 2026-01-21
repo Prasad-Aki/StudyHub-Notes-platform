@@ -1,17 +1,25 @@
 import './Notes.css'
-import notesData from '../../src/data/notesdata'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import axios from 'axios'
 
 function Notes() {
 
     const navigate = useNavigate()
 
-
+    const [allnotedata, Setallnotedata] = useState([])
     const [searchnotes, Setsearchnotes] = useState('')
     const [yearfilter, Setyearfilter] = useState('all')
 
-    const filternotes = notesData.filter((note) => {
+    useEffect(() => {
+        axios.get('/api/notes')
+            .then((response) => {
+                Setallnotedata(response.data)
+            })
+            .catch(err => console.log(err))
+    }, [])
+
+    const filternotes = allnotedata.filter((note) => {
         const matchesSearch = note.title
             .toLowerCase()
             .includes(searchnotes.toLowerCase())
@@ -57,7 +65,7 @@ function Notes() {
 
             <div className="shownotes">
                 {filternotes.map((item) => (
-                    <div className="cardcontent">
+                    <div key={item.id} className="cardcontent">
                         <div className="display">
                             <h2 className='title'>{item.title}</h2>
                             <p>{item.type}</p>
