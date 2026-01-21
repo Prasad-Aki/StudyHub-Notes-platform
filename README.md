@@ -9,14 +9,19 @@ It helps students manage their study material in one place with search and filte
 -  Responsive UI
 -  Built with React and React Router
 
+🔗 Backend Integration
+- This project now uses an Express backend to serve notes data.
+### APIs
+- GET /api/notes → fetch all notes
+- GET /api/notes/:id → fetch note details
+
 🧱 Tech Stack
-- React
-- React Router
-- CSS
-- JavaScript (ES6)  
+- React + Vite (Frontend)
+- Express.js (Backend)
+- Axios for API communication
+- Vite proxy to avoid CORS in development  
 
 🎯 Future Enhancements
-- Add backend with Node + Express
 - MongoDB database for notes
 - User authentication (login/register)
 - Upload notes files
