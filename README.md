@@ -1,16 +1,42 @@
-# React + Vite
+StudyHub is a React-based web application for students to store and access study notes and resources from all years.
+It helps students manage their study material in one place with search and filters.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+- Display all notes
+-  Search notes by title
+-  Filter notes by year
+-  View note details on a separate page
+-  Responsive UI
+-  Built with React and React Router
 
-Currently, two official plugins are available:
+🧱 Tech Stack
+- React
+- React Router
+- CSS
+- JavaScript (ES6)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎯 Future Enhancements
+- Add backend with Node + Express
+- MongoDB database for notes
+- User authentication (login/register)
+- Upload notes files
+- Admin panel
 
-## React Compiler
+ 📸 Screenshots
+<img width="1919" height="902" alt="image" src="https://github.com/user-attachments/assets/5555fce9-4002-4228-a0eb-5523a3da0383" />
+<img width="1909" height="918" alt="image" src="https://github.com/user-attachments/assets/21828afa-3ed0-4059-b144-46885b7721ef" />
+<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/e0818595-e77a-4088-b504-5a7e5fe81ae7" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📈 What I Learned
+- Building multi-page apps using React Router
+- Implementing search and filter logic
+- Component-based UI architecture
+- Structuring a real-world React project
+- Creating clean and readable UI layouts
 
-## Expanding the ESLint configuration
+## 📬 Contact
+**Prasad Akiwate**  
+Frontend Developer (React) | Learning MERN Stack  
+ 
+- LinkedIn: https://www.linkedin.com/in/prasad-akiwate-621113375  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
